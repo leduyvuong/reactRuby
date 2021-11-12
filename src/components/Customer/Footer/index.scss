@@ -1,0 +1,51 @@
+.footer {
+  padding: 1rem 0;
+  font-family: "Poppins", sans-serif;
+
+  .footer-site-logo {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+
+    a {
+      color: #51c6e9;
+    }
+  }
+
+  ul {
+    li {
+      display: inline-block;
+      padding: 10px;
+    }
+  }
+
+  .social {
+    h3 {
+      font-weight: bold;
+      font-size: 18px;
+      color: #000;
+    }
+  }
+
+  .nav-links {
+    padding: 0;
+    margin: 0;
+
+    a {
+      color: #000;
+
+      &:hover {
+        color: #4200ff;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .content {
+    height: 70vh;
+  }
+
+  .copyright {
+    color: #999;
+  }
+}

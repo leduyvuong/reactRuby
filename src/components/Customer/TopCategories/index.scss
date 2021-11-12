@@ -1,0 +1,56 @@
+.single-category {
+  text-align: center;
+
+  .category-title {
+    h3 {
+      font-size: 14px;
+      margin-bottom: 0;
+      line-height: 17px;
+    }
+  }
+
+  .category-image {
+    margin-bottom: 10px;
+
+    a {
+      &:hover {
+        border-color: #80bb01;
+      }
+    }
+  }
+}
+
+.cricle {
+  border: 5px solid #ddd;
+  border-radius: 50%;
+}
+
+.pointer {
+  width: 200px;
+  height: 40px;
+  position: relative;
+  background: #80bb01;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #80bb01;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+}
